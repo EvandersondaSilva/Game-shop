@@ -44,6 +44,7 @@ Total da compra se ajusta automaticamente ao modificar a quantidade de itens no 
 
 
 
+
 🛠️ O que aprendi neste projeto
 
 Esse foi o primeiro projeto em que apliquei o Context API para gerenciar dados globalmente.
