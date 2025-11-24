@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
+O Game Shop é um projeto de e-commerce desenvolvido com React, TypeScript e Vite, criado com o objetivo de colocar em prática conceitos fundamentais do desenvolvimento front-end moderno e o uso do Context API para gerenciamento global de estado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias utilizadas
 
-Currently, two official plugins are available:
+React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TypeScript
 
-## React Compiler
+Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+CSS
 
-## Expanding the ESLint configuration
+Context API (Gerenciamento global de estado)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔥 Funcionalidades
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+📦 Carrinho de compras completo
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Adicionar produtos
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Remover produtos
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Aumentar quantidade de itens
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Atualização dinâmica do valor total da compra conforme as ações do usuário
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🧭 Navegação fluida
+
+Página inicial com listagem de produtos
+
+Página de detalhes do produto
+
+Ao adicionar um item pelo detalhe do produto, o usuário é automaticamente redirecionado para o carrinho
+
+🧮 Cálculos dinâmicos
+
+Total da compra se ajusta automaticamente ao modificar a quantidade de itens no carrinho
+
+🛠️ O que aprendi neste projeto
+
+Esse foi o primeiro projeto onde apliquei o Context API para gerenciar dados globalmente, tornando o fluxo do carrinho muito mais organizado e eficiente. Também consolidei conhecimentos sobre:
+
+Renderização dinâmica
+
+Componentização e boas práticas com React + TS
+
+Navegação entre páginas
+
+Tipagem forte com TypeScript
+
+Manipulação de estado compartilhado
+
+🎯 Objetivo
+
+Esse projeto marca uma etapa importante na minha evolução como desenvolvedor, principalmente ao entender de maneira mais avançada o gerenciamento de estado em aplicações React.
+
+Estou muito feliz em ver minha evolução constante e motivado a continuar avançando no desenvolvimento web. 🚀
