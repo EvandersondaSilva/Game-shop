@@ -1,5 +1,7 @@
 O Game Shop é um projeto de e-commerce desenvolvido com React, TypeScript e Vite, criado com o objetivo de colocar em prática conceitos fundamentais do desenvolvimento front-end moderno e o uso do Context API para gerenciamento global de estado.
 
+
+
 🚀 Tecnologias utilizadas
 
 React
@@ -24,6 +26,8 @@ Aumentar quantidade de itens
 
 Atualização dinâmica do valor total da compra conforme as ações do usuário
 
+
+
 🧭 Navegação fluida
 
 Página inicial com listagem de produtos
@@ -32,9 +36,13 @@ Página de detalhes do produto
 
 Ao adicionar um item pelo detalhe do produto, o usuário é automaticamente redirecionado para o carrinho
 
+
+
 🧮 Cálculos dinâmicos
 
 Total da compra se ajusta automaticamente ao modificar a quantidade de itens no carrinho
+
+
 
 🛠️ O que aprendi neste projeto
 
