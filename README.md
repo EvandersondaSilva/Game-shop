@@ -38,20 +38,17 @@ Total da compra se ajusta automaticamente ao modificar a quantidade de itens no 
 
 🛠️ O que aprendi neste projeto
 
-Esse foi o primeiro projeto onde apliquei o Context API para gerenciar dados globalmente, tornando o fluxo do carrinho muito mais organizado e eficiente. Também consolidei conhecimentos sobre:
+Esse foi o primeiro projeto em que apliquei o Context API para gerenciar dados globalmente.
+Com isso, aprimorei meu entendimento sobre:
 
-Renderização dinâmica
+Gerenciamento de estado em escala
 
-Componentização e boas práticas com React + TS
-
-Navegação entre páginas
+Navegação e composição de interfaces no React
 
 Tipagem forte com TypeScript
 
-Manipulação de estado compartilhado
+Renderização de componentes baseada em dados
 
-🎯 Objetivo
+Boas práticas de organização de código
 
-Esse projeto marca uma etapa importante na minha evolução como desenvolvedor, principalmente ao entender de maneira mais avançada o gerenciamento de estado em aplicações React.
-
-Estou muito feliz em ver minha evolução constante e motivado a continuar avançando no desenvolvimento web. 🚀
+Esse projeto representa uma evolução importante na minha jornada como desenvolvedor front-end.
